@@ -11,7 +11,7 @@ const port = 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 //HTTP logger
-            const morgan = require('morgan');
+                    const morgan = require('morgan');
 
 //midleware body-parser for (form) using post method
 app.use(
