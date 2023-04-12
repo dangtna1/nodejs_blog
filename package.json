@@ -10,17 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
-
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
-  
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dangtna1/nodejs_blog.git"
